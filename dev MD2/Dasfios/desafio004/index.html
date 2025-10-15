@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+</head>
+<style>
+    
+    @font-face {
+        font-family: 'Comic Jungle';
+        src: url('Comic_jungle/Comic\ Jungle.ttf') format('truetype');
+        font-weight: bold;
+
+    }
+
+    :root {
+        --fonte-Destaque: 'Comic jungle';
+    }
+
+    body {
+        background: linear-gradient(135deg, #a18cd1);
+
+        /*display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;*/
+
+    }
+    html,body{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+       
+    }
+
+    main {
+        width: 70%;
+        margin: 40px auto;
+        padding: 20px;
+        box-shadow: 0px 0px 10px black;
+        border-radius: 10px;
+        margin: bottom;
+        background-color: white;
+    }
+
+    main>nav {
+        text-align: center;
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    nav a {
+        text-decoration: none;
+        font-family: var(--fonte-Destaque);
+        color: black;
+        transition: color 0.3s ease;
+        position: relative;
+    }
+
+    nav a::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 0%;
+        height: 2px;
+        background-color: #a18cd1;
+        transition: width 0.3s ease;
+    }
+
+    nav a:hover {
+        color: #a18cd1;
+
+    }
+
+    nav a:hover::after {
+        width: 100%;
+    }
+
+    .container {
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    img {
+        width: 40%;
+        position: relative;
+        top: -50px;
+        margin-top: 60px;
+
+
+
+    }
+div > img{
+     
+      transition: transform 0.4s ease;
+}
+div > img:hover{
+     transform: translateY(-15px) scale(1.05) rotateX(5deg);
+}
+</style>
+
+<body>
+
+    <main>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">PROJECTOS</a>
+            <a href="#">SOBRE</a>
+            <a href="#">CONTACTO</a>
+        </nav>
+    </main>
+    <div class="container">
+        <img src="recorte.png" alt="" id="Sombra">
+        <p style="max-width: 400px;font-size: 17px;line-height: 1.7; " >O chocolate é um dos alimentos mais apreciados no mundo. Com sabor doce, aroma envolvente e textura cremosa, ele conquista pessoas de todas as idades. Mas além de ser delicioso, o chocolate tem uma história rica e um processo de produção bastante interessante.</p>
+
+       
+  
+    </div>
+  
+</body>
+
+</html>

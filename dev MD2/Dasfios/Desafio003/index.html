@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Desafio 03</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+/* Fundo da página */
+body {
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container para alinhar os quadrados lado a lado */
+.container {
+  display: flex;
+  gap: 5px; /* Espaço entre os quadrados */
+}
+
+/* Quadrado preto */
+.caixa {
+  width: 100px;
+  height: 100px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Quadrado branco dentro */
+.miolo {
+  width: 50px;
+  height: 50px;
+  background: white;
+}
+
+</style>
+<body>
+  <div class="container">
+    <div class="caixa">
+      <div class="miolo"></div>
+    </div>
+    <div class="caixa">
+      <div class="miolo"></div>
+    </div>
+    <div class="caixa">
+      <div class="miolo"></div>
+    </div>
+  </div>
+</body>
+</html>

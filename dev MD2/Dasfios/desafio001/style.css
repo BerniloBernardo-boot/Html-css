@@ -1,0 +1,139 @@
+/* Resetando estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F0F0F0; /* Fundo claro */
+    color: #333;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #0D47A1; /* Azul escuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+    font-weight: light;
+}
+
+.header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Banner */
+.banner {
+    background-color: #4FC3F7; /* Azul claro */
+    padding: 40px 0;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.highlight-news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-news img {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.news-text {
+    max-width: 500px;
+}
+
+.news-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.news-text p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.news-text a {
+    text-decoration: none;
+    color: #0D47A1;
+    font-weight: bold;
+}
+
+/* Últimas Notícias */
+.news {
+    padding: 40px;
+    background-color: #FFFFFF;
+}
+
+.news h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.news-item {
+    background-color: #F5F5F5;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.news-item h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    font-size: 16px;
+}
+
+.news-item a {
+    text-decoration: none;
+    color: #0D47A1;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    background-color: #0D47A1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

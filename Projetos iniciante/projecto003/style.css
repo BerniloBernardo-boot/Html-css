@@ -1,0 +1,217 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background:white;
+      color: #fff;
+    }
+
+    header {
+      background:black;
+      padding: 0 30px;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 0 auto;
+      height: 60px;
+    }
+
+    /* Logo à esquerda */
+    .logo img {
+      height: 40px;
+    }
+
+    /* Menu central */
+    .menu {
+      flex: 1; /* ocupa o espaço entre logo e canto direito */
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .menu a:hover {
+      color: #0f0; /* verde no hover */
+    }
+
+    /* Ícones ou perfil à direita (opcional) */
+    .right-icons {
+      display: flex;
+      gap: 16px;
+    }
+
+    .right-icons a {
+      color: #fff;
+      text-decoration: none;
+    }
+  
+.central{
+  background-color: grey;
+ 
+  
+  text-align: center;
+  padding: 10px;
+
+}
+.central> p >a{
+color: #fff;
+}
+.texto{
+  position: absolute;
+  top: 20%;
+  left: 26%;
+  color: white;
+   justify-content: center;
+  text-align: center;
+  object-fit: cover;
+  object-position: center;
+  margin: 30px;
+  
+}
+.texto h1{
+  font-size: 3rem;
+  margin: 0;
+}
+.texto p{
+font-size: 29px;
+margin: 5px 0;
+}
+.texto a{
+  font-size: 21px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+hr{
+  color: #0f0;
+}
+.container{
+margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: block;
+  
+}
+.container >img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.espaco{
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.678);
+
+}
+.container .text{
+position: absolute;
+top: 13%;
+left: 30%;
+color: white;
+justify-content: center;
+padding: 10px;
+border-radius: 8px;
+ z-index: 10;
+text-align: center;
+
+
+}
+.text h1{
+  font-size: 3rem;
+  margin: 0;
+}
+.text p{
+font-size: 29px;
+margin: 5px 0;
+text-align: center;
+}
+.text a{
+  font-size: 21px;
+  color: #fff;
+  gap: 2px;
+}
+
+    footer {
+      background-color: #000;
+      padding: 40px 20px;
+      font-size: 14px;
+    }
+
+    .footer-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 30px;
+      margin-bottom: 30px;
+    }
+
+    .footer-col h4 {
+      color: #00ff00; /* Verde estilo Razer */
+      margin-bottom: 15px;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-col ul li {
+      margin-bottom: 8px;
+    }
+
+    .footer-col ul li a {
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .footer-col ul li a:hover {
+      color: #00ff00;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      color: #ccc;
+      font-size: 18px;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #00ff00;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid #222;
+      padding-top: 15px;
+      text-align: center;
+      font-size: 12px;
+      color: #666;
+    }
+   

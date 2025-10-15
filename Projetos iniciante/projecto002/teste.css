@@ -1,0 +1,15 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div>p{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px;
+}
+div>#azul{
+    background-color: rgba(0, 0, 255, 0.829);
+}
